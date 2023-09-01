@@ -1,0 +1,70 @@
+#scenario_scenA1,
+#scenario_scenA2,
+#scenario_scenA3,
+#scenario_scenA4,
+#scenario_scenA5,
+#scenario_scenA6,
+#scenario_scenA7,
+#scenario_scenA8,
+#scenario_scenA9,
+#scenario_scenA10,
+#scenario_scenA11,
+#scenario_scenB1,
+#scenario_scenB2,
+#scenario_scenB3,
+#scenario_scenB4,
+#scenario_scenB5,
+#scenario_scenB6,
+#scenario_scenB7,
+#scenario_scenB8,
+#scenario_scenB9,
+#scenario_scenB10,
+#scenario_scenC1,
+#scenario_scenC2,
+#scenario_scenC3,
+#scenario_scenC4,
+#scenario_scenC5,
+#scenario_scenC6,
+#scenario_scenC7,
+#scenario_scenC8,
+#scenario_scenC9,
+#scenario_scenC10,
+#scenario_scenC11,
+#scenario0,
+#scenario_scen2,
+#scenario_scen3,
+#scenario_scen4,
+#scenario_scen5,
+#scenario_scen6,
+#scenario_scen7,
+#scenario_scen8,
+#scenario_scen9,
+#scenario_scen10 {
+  position:relative;
+  display: flex;
+  height: 100vh;
+}
+
+.column {
+  flex : 1;
+  overflow-y : auto;
+  padding : 10px;
+}
+
+.left-column {
+  max-width: 1000px;
+  background-color: #f0f0f0;
+}
+
+.right-column {
+  max-width: 1000px;
+  background-color: #f9f9f9;
+  position : sticky;
+  top : 10;
+  height : 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
